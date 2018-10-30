@@ -1,0 +1,27 @@
+
+
+# Configuration file example 1. This comment can be accessed later using the attribute .initial_comment on
+# ConfigObj class
+
+# This is an example of config file used by the script read_config.py
+# Comments always start with '#' by default (you can change the staring character
+# overriding class atribute COMMENT_MARKERS: https://configobj.readthedocs.io/en/latest/configobj.html#comments)
+
+
+# Sections can be specified using brackets
+[DEFAULT]
+ForwardAgent = no # Comments can be written after an entry in the configuration file
+ForwardX11 =  no
+ForwardX11Trusted = yes
+User = ssh
+Port = 22
+Protocol = 2
+ServerAliveInterval = 60
+ServerAliveCountMax = 30
+
+
+[HOME]
+HostName = 192.168.1.100
+User =  root
+IdentityFile = ~/.ssh/nas01.key
+
