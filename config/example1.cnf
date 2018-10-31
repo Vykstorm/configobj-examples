@@ -19,7 +19,7 @@ Protocol = 2
 ServerAliveInterval = 60
 ServerAliveCountMax = 30
 
-
+# You can declare multiple sections in the same scope...
 [HOME]
 HostName = 192.168.1.100
 User =  root

@@ -1,7 +1,8 @@
 
 '''
 ConfigObj example:
-Shows how to read the configuration present on the file config/example1.cnf and access to its values.
+Shows how to read the configuration present on the file config/example1.cnf
+See config/example1.cnf for more info
 '''
 
 
