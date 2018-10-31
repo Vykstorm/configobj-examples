@@ -1,0 +1,24 @@
+
+# Configuration file example 2
+
+# This example shows how to declare subsections.
+
+
+
+
+
+[SERVER]
+host = 192.168.1.1
+port = 30
+
+[SITES]
+    home-page = /home
+
+    # Subsections are declared using double brackets...
+    [[UPLOADFILES]]
+    request-type = POST
+    endpoint  = /uploadfiles
+
+    [[READFILES]]
+    request-type = GET, POST  # Entry value can be a list of items
+    endpoint = /getfiles
