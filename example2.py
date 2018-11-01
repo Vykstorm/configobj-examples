@@ -7,7 +7,7 @@ See config/example2.cnf for more info.
 '''
 
 
-from configobj import ConfigObj as Config, Section
+from configobj import ConfigObj as Config
 
 if __name__ == '__main__':
     config = Config('config/example2.cnf')
