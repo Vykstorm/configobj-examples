@@ -1,0 +1,14 @@
+
+# Configuration file example 3
+# See example3.spec.cnf  to understand how a spec configuration file can be declared.
+
+
+A = Hello world!
+B = 3.1415
+C = on
+D = false # This entry value will not match the expected type specified in the configuration spec file.
+
+[FOO]
+E =  2, 3, 5, 7, 9, 11, 13, 15
+F = 192.168.1.1
+G = 23

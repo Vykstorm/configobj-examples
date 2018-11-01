@@ -1,0 +1,17 @@
+
+
+# Configuration spec file for example 3
+# This file defines the expected types for each configuration entry value
+# Read the docs for ConfigObj for more info: https://configobj.readthedocs.io/en/latest/validate.html
+
+# Change the expected types of each configuration variable to test validation
+
+A = string
+B = float
+C = boolean
+D = boolean
+
+[FOO]
+E = int_list
+F = ip_addr
+G = integer
